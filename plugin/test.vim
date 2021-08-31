@@ -23,7 +23,7 @@ let g:test#default_runners = {
   \ 'Perl':       ['Prove'],
   \ 'Python':     ['Behave', 'DjangoTest', 'PyTest', 'PyUnit', 'Nose', 'Nose2', 'Mamba'],
   \ 'Racket':     ['RackUnit'],
-  \ 'Ruby':       ['Rails', 'M', 'Minitest', 'RSpec', 'Cucumber', 'TestBench'],
+  \ 'Ruby':       ['Rails', 'M', 'Minitest', 'RSpec', 'Cucumber', 'TestBench', 'Testrbl'],
   \ 'Rust':       ['CargoTest'],
   \ 'Scala':      ['SbtTest', 'BloopTest'],
   \ 'Shell':      ['Bats'],
