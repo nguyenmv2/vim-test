@@ -3,7 +3,7 @@ if !exists('g:test#ruby#minitest#file_pattern')
 endif
 
 function! test#ruby#minitest#test_file(file) abort
-  return a:file =~# g:test#ruby#minitest#file_pattern
+  return a:file =~# g:test#ruby#minitest#file_pattern && test#base#executable('ruby#minitest') ==# 'minitest'
 endfunction
 
 function! test#ruby#minitest#build_position(type, position) abort
